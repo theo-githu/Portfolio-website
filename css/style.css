@@ -60,6 +60,7 @@ a {
   transition-duration: 0.2s;
 }
 
+
 a:visited {
   color: var(--a-visited);
 }
@@ -83,8 +84,6 @@ a:active {
 .button, button {
   /* overwrites browser defaults and resets the border */
   border: none;
-  width: 150px;
-  align-self: center;
   display: inline-block;
   /* takes the font from the outer container */
   font-family: inherit;
@@ -108,12 +107,12 @@ button:hover, button:focus,
 
 form input[type="submit"]{
 	width: 150px;
-	background-color: var(--button-bg); 
+	background-color: var(--secondary-color); 
 	color: var(--button-colour);
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 3px;
-	border-bottom: 2px solid var(--border-bottom);
+	 border-bottom: 2px solid var(--border-bottom);
 }
 
 form input:hover, form input:focus {
@@ -292,7 +291,6 @@ margin: 20px 0;
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-/* contact forms */
 
 
 
