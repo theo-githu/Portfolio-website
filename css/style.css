@@ -109,7 +109,7 @@ button:hover, button:focus,
 
 form input[type="submit"]{
 	width: 150px;
-	background-color: var(--button-bg; 
+	background-color: var(--button-bg); 
 	color: var(--button-colour);
 	text-decoration: none;
 	padding: 10px;
