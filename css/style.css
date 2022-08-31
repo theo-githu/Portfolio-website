@@ -294,7 +294,17 @@ margin: 20px 0;
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+/* About Flexbox 'table' */
 
+.about-table {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
 
-
-
+.contact-main {
+  padding: 20px;
+  margin-left: auto;
+}
