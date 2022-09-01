@@ -161,6 +161,14 @@ margin: 20px 0;
   font-weight: bold;
 }
 
+.navigation-list a:hover {
+  border-bottom: 1px solid black;
+}
+
+.navigation-list a.active {
+  border-bottom: 1px solid black;
+}
+
 /* Profile */
 
 .profile {
