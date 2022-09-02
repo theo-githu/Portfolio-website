@@ -162,11 +162,11 @@ margin: 20px 0;
 }
 
 .navigation-list a:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #357b80;
 }
 
-.navigation-list a.active {
-  border-bottom: 1px solid black;
+.navigation-list a.navigation-list__item--active {
+  border-bottom: 2px solid #357b80;
 }
 
 /* Profile */
