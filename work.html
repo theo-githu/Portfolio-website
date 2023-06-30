@@ -3,11 +3,10 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Portfolio</title>
+      <title>Recent Work</title>
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-      <link href="http://fonts.googleapis.com/css?family=Noto+Sans%7CRoboto+Mono&display=swap" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="css/style.production.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
 
   <body>
@@ -28,56 +27,112 @@
       </nav>    
    </header> 
 
-    <section>
-      <br>
-      <div class="grid">
+    <section id="projects">
+      <div class="projects container">
+        <div class="grid">
 
-       <div class="grid__item">
-         <h2>Mobile Web App</h2>
-         <p>This will contain all the information relating to the mobile web app I designed and built.</p>
-         <a href="">See Project on Github</a> 
-       </div>
+          <div class="grid_item">
+            <img src="img/cocktail-app.png" alt="" />
+            <div>
+              <h1>Make me a drink</h1>
+              <p>
+                Make me a drink is a web application built with HTML, CSS, and
+                primarily JavaScript. It loads data from an external API and
+                enables the viewing of that data in detail. Discover a random 
+                new drink or find your favourites.
+              </p>
+              <a href="https://github.com/theo-githu/Cocktail-App"
+                >See project on Github</a
+              >
+            </div>
+          </div>
 
-        <div class="grid__item">
-         <h2>Blog</h2>
-         <p>This will contain all the information relating to the very exciting life I lead.</p>
-         <a href="">See Project on Github</a> 
-       </div>
+          <div class="grid_item">
+            <img src="img/myFlix-api.png" alt="" />
+            <div>
+              <h1>MyFlix API</h1>
+              <p>
+                This API is the server-side component of a movies web
+                application. The web application provides users with access to
+                information about different movies, the director, and genres.
+              </p>
+              <a href="https://github.com/theo-githu/myFlix-partdeux"
+                >See project on Github</a
+              >
+            </div>
+          </div>
 
-       <div class="grid__item">
-         <h2>Music</h2>
-         <p>This will contain all the music I listened to whilst designing and building the mobile web app.</p>
-         <a href="">See Project on Github</a> 
-       </div>
+          <div class="grid_item">
+            <img src="img/myFlix-client.png" alt="" />
+            <div>
+              <h1>React MyFlix</h1>
+              <p>
+                This single-page, responsive application (SPA) is the
+                client-side for an application called myFlix based on its
+                existing server-side code (REST API and database).
+              </p>
+              <a href="https://github.com/theo-githu/myFlix-final"
+                >See project on Github</a
+              >
+            </div>
+          </div>
 
-       <div class="grid__item">
-         <h2>YouTube</h2>
-         <p>This will contain all the video footage of me designing and building the mobile web app.</p>
-         <a href="">See Project on Github</a> 
-       </div>
+          <div class="grid_item">
+            <img src="img/meetapp.png" alt="" />
+            <div>
+              <h1>Meet App</h1>
+              <p>
+                Meet App is a serverless, progressive web application (PWA)
+                built with React using a test-driven development (TDD)
+                technique. The application uses the Google Calendar API to fetch
+                upcoming events.
+              </p>
+              <a href="https://github.com/theo-githu/meet"
+                >See project on Github</a
+              >
+            </div>
+          </div>
 
-       <div class="grid__item">
-        <h2>Another Blog</h2>
-        <p>This is another section which will contain all the information relating to the very exciting life I lead.</p>
-        <a href="">See Project on Github</a> 
+          <div class="grid_item">
+            <img src="img/chatapp.png" alt="" />
+            <div>
+              <h1>Chatapp</h1>
+              <p>
+                Chat App was built for mobile devices using React Native. The
+                app provides users with a chat interface and options to share
+                images and their location.
+              </p>
+              <a href="https://github.com/theo-githu/chat-app"
+                >See project on Github</a
+              >
+            </div>
+          </div>
+
+          <div class="grid_item">
+            <img src="img/angular.png" alt="" />
+            <div>
+              <h1>MyFlix Angular</h1>
+              <p>
+                Utilizing the same movie API as with the React app, this SPA is
+                built with Angular.
+              </p>
+              <a href="https://github.com/theo-githu/Angular-myFlix"
+                >View code on Github
+              </a>
+            </div>
+          </div>
+
+          <div class="grid_item">
+            <div>
+              <h1>Your Project?</h1>
+              <p>Do you require help realising your own website?</p>
+              <a href="mailto:theodoremaubec@gmail.com">Get in touch</a>
+            </div>
+          </div>
+
+        </div>
       </div>
-
-      <div class="grid__item">
-        <h2>Your Project?</h2>
-        <p>Do you require help realising your own website? I can help you acheive all of this.</p>
-        <a href="">Contact me</a> 
-      </div>
-      </div>
-    </section>
-
-    <footer class="page-footer">
-      <p>Find me on</p>
-
-      <div class="links">
-        <a href="https://uk.linkedin.com/"><img src="img/linkedin.svg" alt="LinkedIn-logo"></a>
-        <a href="https://github.com/theo-githu?tab=repositories"><img src="img/github.svg" alt="Github-logo"></a>
-      </div>
-    </footer> 
+     
     <script src="js/tota11y.min.js"></script>        
   </body>
 </html>
