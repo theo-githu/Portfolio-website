@@ -6,13 +6,13 @@ Primary color (purple):#357b70;
 Secondary color (orange):#e0b354;
 */
 :root {
-  --primary-color: #357b80;
+  --primary-color: #gray;
   --secondary-color: #e0b354;
   --body: #001f3f;
   --background-main: lightblue;
-  --a-active: #489c79;
-  --a-visited: #05676e;
-  --button-bg: #357b70;
+  --a-active: black;
+  --a-visited: black;
+  --button-bg: gray;
   --button-colour: white;
   --border-bottom: rgba(0, 0, 0, 0.3);
   --grid-bg: lightgray;
